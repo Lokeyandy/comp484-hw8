@@ -3,6 +3,10 @@
 # - #C20114 Red
 # - #0D0628 Dark Purple
 # - #002066 Royale Blue (traditional) 
+# - darkstaleblue
+# - black
+# - font-family: "Quintessential", serif;
+# - font-family: "DM Serif Text", serif;
 */
 
 /* Global styles 
@@ -15,40 +19,97 @@ body {
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
+    img{
+        width: 175px;
+    }
+
     h1 {
-        color: #002066;
+        font-size:50px;
+        font-family: "Quintessential", serif;
+        font-weight: 1300;
+        
+        color:#0D0628;
     }
     h2 {
-        color: #0D0628;
+        font-size:30px;
+        font-family: "Quintessential", serif;
+        color:#002066;
     }
-    h3 {
-        color: #C20114;
+
+    p {
+        font-size:16px;
+        font-family: "DM Serif Text", serif;
+        font-weight: 300;
+        color:#0D0628;
     }
-    footer {
+    p2 {
+        font-size:16px;
+        font-family: "DM Serif Text", serif;
         color: #C20114;
     }
 }
 
 /* Work Experience
 ------------------------------------*/
-.Job_name {
-    color: #002066;
+.Work_exp {
+    h2 {
+        font-size:35px;
+        font-family: "Quintessential", serif;
+        color:#0D0628;
+    }
+
+    h3 {
+        font-size:25px;
+        font-family: "Quintessential", serif;
+        color:#002066;
+    }
+
+    .Job_name {
+        font-size:20px;
+        font-family: "DM Serif Text", serif;
+        color:#C20114;
+    }
+
+    .Date {
+        font-size:16px;
+        font-family: "DM Serif Text", serif;
+        color:darkslateblue; 
+    }
+
+    .Sum {
+        font-size:16px;
+        font-family: "DM Serif Text", serif;
+        font-weight: 300;
+        color:black;
+    }
+
 }
 
-.Date {
-    color: 
-}
-
-.Sum {
-    color:
-}
 
 /* Education
 ------------------------------------*/
-.bs {
-    color: 
-}
+.Ed {
+    h2 {
+        font-size:35px;
+        font-family: "Quintessential", serif;
+        color:#0D0628;
+    }
 
-.course {
-    color:
+    h3 {
+        font-size: 25px;;
+        font-family: "Quintessential", serif;
+        color:#002066;
+    }
+    .bs {
+        font-size:20px;
+        font-family: "DM Serif Text", serif;
+        color:#C20114;
+    }
+
+    .course {
+        font-size:16px;
+        font-family: "DM Serif Text", serif;
+        font-weight: 300;
+        color:black
+    }
 }
