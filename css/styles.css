@@ -1,26 +1,54 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+# - #F2EFE9 Isabeline
+# - #C20114 Red
+# - #0D0628 Dark Purple
+# - #002066 Royale Blue (traditional) 
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    background: #F2EFE9;/*background: lightblue;*/
 }
 
 
 /* Header & Footer 
 ------------------------------------*/
-
-
+header, footer {
+    h1 {
+        color: #002066;
+    }
+    h2 {
+        color: #0D0628;
+    }
+    h3 {
+        color: #C20114;
+    }
+    footer {
+        color: #C20114;
+    }
+}
 
 /* Work Experience
 ------------------------------------*/
+.Job_name {
+    color: #002066;
+}
 
+.Date {
+    color: 
+}
 
+.Sum {
+    color:
+}
 
 /* Education
 ------------------------------------*/
+.bs {
+    color: 
+}
+
+.course {
+    color:
+}
