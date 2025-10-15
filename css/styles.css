@@ -11,37 +11,69 @@
 
 /* Global styles 
 ------------------------------------*/
+html{
+    box-sizing: border-box;
+} 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.content-wraper {
+    overflow: hidden;
+    max-width: 950px;
+    margin: auto;
+    padding: 50px;
+}
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide {
+    width: 70;
+    float: left;
+    min-height: 225px;
+}
 body {
     background: #F2EFE9;/*background: lightblue;*/
+    margin: 0;
 }
 
 
 /* Header & Footer 
 ------------------------------------*/
-header, footer {
-    img{
-        width: 175px;
+header {
+    .profile-tag {
+       /* margin-right: 30px;
+        width: 300px;
+        float: left; */
+        border-radius: 50%;
     }
 
     h1 {
         font-size:50px;
         font-family: "Quintessential", serif;
         font-weight: 1300;
-        
+        margin: 0;
         color:#0D0628;
     }
     h2 {
+        margin: 0;
         font-size:30px;
         font-family: "Quintessential", serif;
         color:#002066;
     }
-
     p {
         font-size:16px;
         font-family: "DM Serif Text", serif;
         font-weight: 300;
         color:#0D0628;
     }
+}
+
+footer {
+    text-align: center;
+
     p2 {
         font-size:16px;
         font-family: "DM Serif Text", serif;
@@ -49,10 +81,16 @@ header, footer {
     }
 }
 
+
 /* Work Experience
 ------------------------------------*/
 .Work_exp {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+
     h2 {
+        margin: 0;
         font-size:35px;
         font-family: "Quintessential", serif;
         color:#0D0628;
@@ -89,7 +127,12 @@ header, footer {
 /* Education
 ------------------------------------*/
 .Ed {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    
     h2 {
+        margin: 0;
         font-size:35px;
         font-family: "Quintessential", serif;
         color:#0D0628;
@@ -112,4 +155,10 @@ header, footer {
         font-weight: 300;
         color:black
     }
+}
+
+/*------  Contact Info  ------------*/
+.contact-info {
+    padding: 10px;
+    display: inline-block;
 }
